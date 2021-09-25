@@ -1,0 +1,28 @@
+HTML
+
+<div class="d-flex align-items-center justify-content-start">
+  <a class="border-transparent" role="button" href="#"><i class="fab fa-twitter-square" style="font-size: 3em; color:#55acee;"></i></a>
+  <a class="border-transparent" role="button" href="#" ><i class="fab fa-facebook-square" style="font-size: 3em; color: #3b5998; "></i></a>
+  <a class="border-transparent" role="button" href=""><i class="fab fa-instagram-square" style="font-size: 3em;"></i></a>
+</div>
+
+
+
+CSS
+
+.fab{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.fa-instagram-square {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.border-transparent{
+    border-color: transparent;
+    border-radius: 2px;
+    background-image: radial-gradient(white 60%, transparent 50%);
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
