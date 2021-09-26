@@ -124,7 +124,7 @@ h6,
     background-position: center;
     background-attachment: fixed;
     background-clip: padding-box;
-    background-size: auto;
+    background-size: cover;
     background-origin: padding-box;
 }
 
@@ -220,7 +220,7 @@ h6,
     opacity: 1;
 }
 
-.section-title::before {
+.section-title::after {
     position: absolute;
     content: "";
     width: 60px;
@@ -228,10 +228,10 @@ h6,
     left: 50%;
     bottom: 0;
     margin-left: -30px;
-    background: var(--primary);
+    background: #8DA080;
 }
 
-.section-title::after {
+.section-title::before {
     position: absolute;
     content: "";
     width: 180px;
@@ -239,7 +239,7 @@ h6,
     left: 50%;
     bottom: 4px;
     margin-left: -90px;
-    background: var(--primary);
+    background: #0F457C;
 }
 
 .service::after,
@@ -413,4 +413,10 @@ a,a:hover{
 }
 .client-name{
     color: var(--maincolor);
+}
+.card-footer{
+    background: none;
+}
+.card{
+    border: none;
 }
