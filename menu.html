@@ -85,8 +85,8 @@
                     <div class="col-12 col-sm-12 collapse-col navbar-logostyle">
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                             <div class="navbar-nav ms-auto mx-lg-auto py-0" style="vertical-align: middle;">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
-                                <a href="menu.html" class="nav-item nav-link" style="color: #8DA080;">Menu & Pricing</a>
+                                <a href="index.html" class="nav-item nav-link active" style="color: #8DA080;" >Home</a>
+                                <a href="menu.html" class="nav-item nav-link">Menu & Pricing</a>
                                 <a href="team.html" class="nav-item nav-link">Cart</a>
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -109,8 +109,9 @@
     </nav>
     <!-- Navbar End -->
 
+
     <!--LR form start-->
-    <section id="Login-signup-form">
+    <section class="Login-signup-form">
         <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog cascading-modal" role="document">
             <div class="modal-content">
@@ -150,7 +151,7 @@
                     <div class="modal-footer">
                       <div class="">
                         <p class="pt-1">Not a member? <a class="text-info" style="cursor: pointer" onclick="document.getElementById('registerButton').click()">Sign up</a></p>
-                        <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                        <p>Forgotten <a href="#" class="text-info">Password?</a></p>
                       </div>
                       <button type="button" class="btn btn-outline-info waves-effect" data-bs-dismiss="modal">Close</button>
                     </div>
@@ -189,14 +190,17 @@
           </div>
         </div>
     </section>
-  <!--LR form end-->  
+  <!--LR form end-->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid bg-dark bg-img p-0 mb-5">
+    <div class="container-fluid bg-dark bg-img p-5 mb-5">
         <div class="row">
-            <div class="col-12  text-center">
-                <p class="text-uppercase text-white menu-header text-center" style="font-weight: normal;  ">Menu & Pricing</p>
+            <div class="col-12 text-center">
+                <h1 class="display-4 text-uppercase text-white">Menu & Pricing</h1>
+                <a href="">Home</a>
+                <i class="far fa-square text-primary px-2"></i>
+                <a href="">Menu & Pricing</a>
             </div>
         </div>
     </div>
@@ -206,19 +210,22 @@
     <!-- Products Start -->
     <div class="container-fluid about py-5">
         <div class="container">
-            <div class="row text-center mx-lg-5">
-                <ul class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase p-4 mb-5">
-                    <li class="nav-item col-lg-4 col-12">
-                        <a class="nav-link text-white active" role="tab" data-bs-toggle="pill" href="#tab-1">Custom Cakes</a>
+            <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+                <h2 class="text-primary font-secondary">Menu & Pricing</h2>
+                <h1 class="display-4 text-uppercase">Explore Our Cakes</h1>
+            </div>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase border-inner p-4 mb-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" data-bs-toggle="pill" href="#tab-1">Birthday</a>
                     </li>
-                    <li class="nav-item col-lg-4 col-6">
-                        <a class="nav-link text-white" role="tab" data-bs-toggle="pill" href="#tab-2">Pastries</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-2">Wedding</a>
                     </li>
-                    <li class="nav-item col-lg-4 col-6">
-                        <a class="nav-link text-white" role="tab" data-bs-toggle="pill" href="#tab-3" style="font-size: 1rem;">Jar Cakes</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" data-bs-toggle="pill" href="#tab-3">Custom</a>
                     </li>
                 </ul>
-            </div>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-3">
@@ -473,6 +480,7 @@
     </div>
     <!-- Offer End -->
     
+
     <!-- Footer Start -->
     <div class="container-fluid bg-img text-secondary" style="margin: top 0;">
         <div class="container">
