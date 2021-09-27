@@ -420,3 +420,6 @@ a,a:hover{
 .card{
     border: none;
 }
+.menu-header{
+    font-size: calc(1.375rem + 2.5vw);
+}
